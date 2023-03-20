@@ -50,8 +50,6 @@ int get_functons() {
       //check if the map at that address is empty
       if(vars.find(input[i]) == vars.end()) {
 	printf("Error");
-
-	//TODO: figure out what to return
 	return -1;
       }
       
@@ -86,8 +84,6 @@ int get_functons() {
   //check if dividing by zero
   if(val2 == 0 && operand == '/') {
     printf("Error");
-
-    //TODO: figure out an error return value 
     return -1;
   }
   
